@@ -1,0 +1,3 @@
+task_type,n_questions,mean_ranking_accuracy,overall_exact_pass_rate,pass_at_5,pass_5_all_correct,consistency_overall_correctness,consistency_top3_answer
+Task_6_counterfactual_mean_depth,5,1.0,1.0,1.0,1.0,1.0,1.0
+Task_7_counterfactual_choice,5,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,4 @@
+pair_id,graph_A,graph_B,n_rows,accuracy
+S1_pair,graph_1,graph_4,5,0.2
+S2_pair,graph_4,graph_3,5,1.0
+S3_pair,graph_3,graph_1,5,1.0

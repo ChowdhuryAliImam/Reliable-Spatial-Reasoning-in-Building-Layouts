@@ -1,0 +1,16 @@
+task_id,task_type,pair_id,graph_A,graph_B,question,expected_answer,n_runs,accuracy
+S1_p1,S1_private_space_exposure,S1_pair,graph_1,graph_4,"Between Layout A and Layout B, which layout better protects private spaces from exposure through shared or guest-facing spaces?",B,1,0.0
+S1_p2,S1_private_space_exposure,S1_pair,graph_1,graph_4,"Between Layout A and Layout B, which layout gives private rooms less exposure to shared circulation or guest-facing areas?",B,1,0.0
+S1_p3,S1_private_space_exposure,S1_pair,graph_1,graph_4,"Between Layout A and Layout B, which layout better avoids routing access to private spaces through shared spaces?",B,1,0.0
+S1_p4,S1_private_space_exposure,S1_pair,graph_1,graph_4,"Between Layout A and Layout B, which layout keeps private spaces more separated from guest-facing paths?",B,1,0.0
+S1_p5,S1_private_space_exposure,S1_pair,graph_1,graph_4,"Between Layout A and Layout B, which layout reduces the number of shared spaces someone passes through before reaching private rooms?",B,1,0.0
+S2_p1,S2_bottleneck_reduction,S2_pair,graph_4,graph_3,"Between Layout A and Layout B, which layout is more efficient at reducing bottleneck effects in circulation?",B,1,0.0
+S2_p2,S2_bottleneck_reduction,S2_pair,graph_4,graph_3,"Between Layout A and Layout B, which layout avoids concentrating movement through a single space more effectively?",B,1,0.0
+S2_p3,S2_bottleneck_reduction,S2_pair,graph_4,graph_3,"Between Layout A and Layout B, which layout distributes movement more evenly across the plan?",B,1,0.0
+S2_p4,S2_bottleneck_reduction,S2_pair,graph_4,graph_3,"Between Layout A and Layout B, which layout is less likely to create a circulation bottleneck?",B,1,0.0
+S2_p5,S2_bottleneck_reduction,S2_pair,graph_4,graph_3,"Between Layout A and Layout B, which layout avoids over-reliance on one space for movement?",B,1,0.0
+S3_p1,S3_entry_access_efficiency,S3_pair,graph_3,graph_1,"Between Layout A and Layout B, which layout provides better access from valid entry spaces to the rest of the layout?",A,1,1.0
+S3_p2,S3_entry_access_efficiency,S3_pair,graph_3,graph_1,"Between Layout A and Layout B, which layout places entries more efficiently for reaching rooms?",A,1,1.0
+S3_p3,S3_entry_access_efficiency,S3_pair,graph_3,graph_1,"Between Layout A and Layout B, which layout provides shorter overall access from entries to spaces?",A,1,1.0
+S3_p4,S3_entry_access_efficiency,S3_pair,graph_3,graph_1,"Between Layout A and Layout B, which layout gives more efficient entry-to-room access?",A,1,1.0
+S3_p5,S3_entry_access_efficiency,S3_pair,graph_3,graph_1,"Between Layout A and Layout B, which layout has better overall accessibility from entry points?",A,1,1.0

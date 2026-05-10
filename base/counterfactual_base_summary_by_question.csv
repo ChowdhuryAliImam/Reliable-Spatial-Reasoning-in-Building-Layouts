@@ -1,0 +1,11 @@
+graph_name,task_id,task_type,question,expected_top_3,n_runs,mean_ranking_accuracy,overall_exact_pass_rate,pass_at_5_overall,pass_5_all_correct_overall,consistency_overall_correctness,consistency_top3_answer
+graph_1,graph_1_T6,Task_6_counterfactual_mean_depth,"After adding a new bedroom to hall, return top 3 lowest mean depth spaces.","[""hall"", ""living_room"", ""dining_room""]",5,0.6666666666666666,0.0,0,0,1.0,1.0
+graph_1,graph_1_T7,Task_7_counterfactual_choice,"After adding a new bedroom to hall, return top 3 highest choice spaces.","[""hall"", ""living_room"", ""dining_room""]",5,1.0,1.0,1,1,1.0,1.0
+graph_2,graph_2_T6,Task_6_counterfactual_mean_depth,"After adding a new bedroom to hall, return top 3 lowest mean depth spaces.","[""hall"", ""hall_2"", ""living_room""]",5,1.0,1.0,1,1,1.0,1.0
+graph_2,graph_2_T7,Task_7_counterfactual_choice,"After adding a new bedroom to hall, return top 3 highest choice spaces.","[""hall"", ""hall_2"", ""living_room""]",5,0.6666666666666666,0.0,0,0,1.0,1.0
+graph_3,graph_3_T6,Task_6_counterfactual_mean_depth,"After adding a new bedroom to hall, return top 3 lowest mean depth spaces.","[""hall"", ""living_room"", ""kitchen""]",5,0.3333333333333333,0.0,0,0,1.0,1.0
+graph_3,graph_3_T7,Task_7_counterfactual_choice,"After adding a new bedroom to hall, return top 3 highest choice spaces.","[""hall"", ""living_room"", ""kitchen""]",5,0.7333333333333333,0.6,1,0,0.6,0.6
+graph_4,graph_4_T6,Task_6_counterfactual_mean_depth,"After adding a new bedroom to hall, return top 3 lowest mean depth spaces.","[""hall"", ""dining_room"", ""kitchen""]",5,1.0,1.0,1,1,1.0,1.0
+graph_4,graph_4_T7,Task_7_counterfactual_choice,"After adding a new bedroom to hall, return top 3 highest choice spaces.","[""hall"", ""kitchen"", ""dining_room""]",5,0.3333333333333333,0.0,0,0,1.0,1.0
+graph_5,graph_5_T6,Task_6_counterfactual_mean_depth,"After adding a new bedroom to hall_1, return top 3 lowest mean depth spaces.","[""stair"", ""living_room_1"", ""living_room_2""]",5,1.0,1.0,1,1,1.0,1.0
+graph_5,graph_5_T7,Task_7_counterfactual_choice,"After adding a new bedroom to hall_1, return top 3 highest choice spaces.","[""living_room_1"", ""hall_1"", ""living_room_2""]",5,0.3333333333333333,0.0,0,0,1.0,1.0

@@ -1,0 +1,4 @@
+task_type,pair_id,graph_A,graph_B,expected_answer,n_paraphrases,accuracy_over_paraphrases,pass_at_5_task,pass_5_all_correct_task,pass_at_5,pass_5_all_correct,consistency_overall_correctness,consistency_answer,random_baseline_accuracy,above_random_baseline
+S1_private_space_exposure,S1_pair,graph_1,graph_4,B,5,0.6,1,0,1,0,0.6,0.6,0.5,0.09999999999999998
+S2_bottleneck_reduction,S2_pair,graph_4,graph_3,B,5,0.4,1,0,1,0,0.6,0.6,0.5,-0.09999999999999998
+S3_entry_access_efficiency,S3_pair,graph_3,graph_1,A,5,1.0,1,1,1,1,1.0,1.0,0.5,0.5

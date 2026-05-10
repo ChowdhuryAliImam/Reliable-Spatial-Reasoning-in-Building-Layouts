@@ -1,0 +1,4 @@
+condition,task_family,task_type,n_questions,accuracy,pass_at_5,pass_5_all_correct,consistency_majority_correctness
+kg,local,L1_direct_adjacency,5,1.0,1.0,1.0,1.0
+kg,local,L2_degree_comparison,5,1.0,1.0,1.0,1.0
+kg,local,L3_two_step_reachability,5,1.0,1.0,1.0,1.0

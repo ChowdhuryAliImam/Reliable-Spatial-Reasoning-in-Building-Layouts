@@ -1,0 +1,4 @@
+task_type,n_tasks,accuracy,pass_at_5,pass_5_all_correct,consistency_answer,consistency_overall_correctness
+S1_private_space_exposure,1,0.0,0.0,0.0,1.0,1.0
+S2_bottleneck_reduction,1,0.0,0.0,0.0,1.0,1.0
+S3_entry_access_efficiency,1,1.0,1.0,1.0,1.0,1.0

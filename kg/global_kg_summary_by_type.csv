@@ -1,0 +1,3 @@
+condition,task_family,task_type,n_questions,mean_metric_accuracy,mean_ranking_accuracy,overall_exact_pass_rate,pass_at_5,pass_5_all_correct,consistency_overall_correctness,consistency_top3_answer,consistency_metric_values
+kg,global,T4_mean_depth,5,1.0,1.0,,1.0,1.0,1.0,1.0,1.0
+kg,global,T5_choice,5,1.0,1.0,,1.0,1.0,1.0,1.0,1.0

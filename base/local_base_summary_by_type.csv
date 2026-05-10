@@ -1,0 +1,4 @@
+task_type,n_questions,accuracy,pass_at_5,pass_5_all_correct,consistency_majority_correctness
+L1_direct_adjacency,5,1.0,1.0,1.0,1.0
+L2_degree_comparison,5,0.6,0.6,0.6,1.0
+L3_two_step_reachability,5,1.0,1.0,1.0,1.0

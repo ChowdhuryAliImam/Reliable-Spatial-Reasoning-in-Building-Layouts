@@ -1,0 +1,13 @@
+task_type,condition,n_question_rows,accuracy,pass_at_5,pass_5_all_correct,consistency,ranking_accuracy,metric_accuracy,source_file,source_title,analysis_rule
+local,base,15,0.8666666666666667,0.8666666666666667,0.8666666666666667,1.0,,,base\local_base_summary_by_question.csv,local_base_summary_by_question.csv,mean questionwise accuracy per graph/question
+local,tool,15,1.0,1.0,1.0,1.0,,,tool\local_tool_summary_by_question.csv,local_tool_summary_by_question.csv,mean questionwise accuracy per graph/question
+local,kg,15,1.0,1.0,1.0,1.0,,,kg\local_kg_summary_by_question.csv,local_kg_summary_by_question.csv,mean questionwise accuracy per graph/question
+global,base,10,0.5104444444444444,0.0,0.0,1.0,0.6533333333333333,0.3675555555555555,base\global_base_summary_by_question.csv,global_base_summary_by_question.csv,mean per-question 0.5*mean_metric_accuracy + 0.5*mean_ranking_accuracy
+global,tool,10,1.0,1.0,1.0,1.0,1.0,1.0,tool\global_tool_summary_by_question.csv,global_tool_summary_by_question.csv,mean per-question 0.5*mean_metric_accuracy + 0.5*mean_ranking_accuracy
+global,kg,10,1.0,1.0,1.0,1.0,1.0,1.0,kg\global_kg_summary_by_question.csv,global_kg_summary_by_question.csv,mean per-question 0.5*mean_metric_accuracy + 0.5*mean_ranking_accuracy
+counterfactual,base,10,0.7066666666666666,0.5,0.4,0.96,0.7066666666666666,,base\counterfactual_base_summary_by_question.csv,counterfactual_base_summary_by_question.csv,mean per-question mean_ranking_accuracy
+counterfactual,tool,10,0.9933333333333334,1.0,0.9,0.9800000000000001,0.9933333333333334,,tool\counterfactual_tool_summary_by_question.csv,counterfactual_tool_summary_by_question.csv,mean per-question mean_ranking_accuracy
+counterfactual,kg,10,1.0,1.0,1.0,1.0,1.0,,kg\counterfactual_kg_fixed_summary_by_question.csv,counterfactual_kg_fixed_summary_by_question.csv,mean per-question mean_ranking_accuracy
+conceptual,base,3,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,,,base\conceptual_base_summary_by_question.csv,conceptual_base_summary_by_question.csv,mean per-task/per-graph question accuracy over paraphrases
+conceptual,tool,3,0.6666666666666666,1.0,0.3333333333333333,0.7333333333333334,,,tool\conceptual_tool_summary_by_question.csv,conceptual_tool_summary_by_question.csv,mean per-task/per-graph question accuracy over paraphrases
+conceptual,kg,3,0.7333333333333334,1.0,0.6666666666666666,0.9333333333333332,,,kg\conceptual_kg_summary_by_question.csv,conceptual_kg_summary_by_question.csv,mean per-task/per-graph question accuracy over paraphrases
